@@ -1,0 +1,190 @@
+body{
+	background: #eeeeee;
+	font-family: 'Belleza', sans-serif;
+
+}
+.logo{
+	width: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.botonera li{
+	color: black;
+	display: inline-block;
+	margin-left: 50px;
+	font-weight: 700px;
+	font-size: 20px;
+}
+.botonera li a{
+	color: white;
+
+}
+.botonera li a:hover{
+	color: #83c37e;
+	text-decoration: black;
+}
+
+
+header{
+	background: lightgreen; 
+	position: fixed;
+	width: 100%;
+	z-index: 34242;
+}
+
+.principal{
+	background: lightgreen;
+	height: 80vh;
+	background: url(../images/110009298_10219995698115333_6097748630282362213_o.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.vertical-centered-text {
+  -ms-display: flex;
+  display: flex;
+  /* alineacion vertical */
+  align-items: center;
+   /* alineacion horizontal */
+  justify-content: center;
+}
+
+.cta{
+	text-align: center;
+}
+h1{
+	font-weight: 700;
+	font-size: 50px;
+	color: #83c37e;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.orange{
+
+	background: lightgreen;
+}
+.btn-primary {
+    color: #1b1e21;
+}
+.nosotros{
+	width: 100%;
+	height: 70vh;
+	text-align: center;
+	padding-top: 100px;
+}
+.nosotros h1{
+	font-weight: 100;
+	text-align: center;
+}
+.servicios{
+	height: 80vh;
+	background: #fbffb9;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 40px;
+	max-width: 1500px;
+}
+.servicios img{
+	width: 50%;
+	text-align: center;
+}
+
+.servicios h1{
+	color: black;
+	font-weight: 30px;
+	text-align: center;
+}
+.servicios .images{
+	padding-top: 20px;
+	padding-bottom: 40px;
+	margin: auto;
+	max-width: 500px;
+}
+
+.images .col-md-3{
+	padding-top: 50px;
+	text-align: center;
+
+}
+.social{
+	text-align: center;
+}
+.social img{
+	width: 35%;
+	text-align: center;
+}
+
+footer{
+	background: #929290;
+	height: 50vh;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+footer h1{
+	text-align: center;
+	font-weight: 100;
+}
+
+#home {
+	color: #fbffb9;
+}
+.col-xs-4{
+	text-align: center;
+}
+
+
+/*@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) { }
+@media only screen and (min-width: 324px) and (max-width: 736px) {*/
+@media only screen and (max-device-width: 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) {
+  /* iPhone only */
+  /* Styles */
+  .off {
+    display: none !important;
+  }
+  .on {
+    display: block !important;
+  }
+  .col-md-2 {
+    width: 100%;
+  }
+  .social img{
+  	width: 100%;
+  }
+  .botonera li a {
+    font-size: 15px;
+    text-align: center;
+}
+.nosotros{
+	height: 400px;
+	overflow: hidden;
+	padding-top: 50px;
+}
+#home{
+	padding-top: 10px;
+}
+
+h1{
+	font-size: 30px;
+}
+
+footer{
+	padding-top: 10px;
+}
+header{
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: 10px;
+	font-size: 0px;
+	background: lightgreen;
+	height: 20vh;
+} 
+
+}
